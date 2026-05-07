@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jan-Vote Portal</title>
+    <link rel="icon" href="{{ url_for('static', filename='images/favicon.ico') }}" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='images/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='images/favicon-16x16.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/global.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/notices.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+<body>
+    <!-- ===== TOP HEADER ===== -->
+    <div class="top-header">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <!-- Logo + Title -->
+            <div class="d-flex align-items-center">
+                <a href="{{ url_for('public.home') }}"><img src="{{ url_for('static', filename='images/logo.png') }}" class="main-logo" alt="logo"></a>
+                <div class="ms-3">
+                    <h4 class="portal-title">JanVote Portal</h4>
+                    <small class="portal-subtitle">Online Voting Awareness & Service</small>
+                </div>
+            </div>
+
+            <!-- Login Button -->
+            <a href="{{ url_for('auth.login') }}" class="login-btn" target="_blank">Voter Login</a>
+
+        </div>
+    </div>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar navbar-expand-lg main-navbar">
+        <div class="container">
+
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav mx-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="{{ url_for('public.home') }}">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('public.about') }}">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="{{ url_for('public.notices') }}">Notices</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('public.forms') }}">Forms</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('public.complaint') }}">Complaint Box</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('public.results') }}">Results</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+
+    <h2 class="text-center mb-4">Latest Election Notices</h2>
+
+    <div class="notice-card">
+        <div class="notice-title">Updated Voter ID Card Distribution Process</div>
+        <div class="notice-date">Date: 01 May 2023</div>
+    </div>
+
+    <div class="notice-card">
+        <div class="notice-title">Election Expenditure Monitoring Instructions</div>
+        <div class="notice-date">Date: 06 May 2023</div>
+    </div>
+
+    <div class="notice-card">
+        <div class="notice-title">Political Party Recognition Criteria Update</div>
+        <div class="notice-date">Date: 10 May 2023</div>
+    </div>
+
+    <div class="notice-card">
+        <div class="notice-title">Polling Station Relocation Notice</div>
+        <div class="notice-date">Date: 15 May 2023</div>
+    </div>
+
+    <div class="notice-card">
+        <div class="notice-title">Counting Day Arrangements</div>
+        <div class="notice-date">Date: 20 May 2023</div>
+    </div>
+
+    <div class="notice-card">
+        <div class="notice-title">Observers Appointment Notification</div>
+        <div class="notice-date">Date: 22 May 2023</div>
+    </div>
+
+    <div class="notice-card">
+        <div class="notice-title">Women Voter Participation Initiative</div>
+        <div class="notice-date">Date: 28 May 2023</div>
+    </div>
+
+    <div class="notice-card">
+        <div class="notice-title">Booth Level Officers Deployment Order</div>
+        <div class="notice-date">Date: 30 May 2023</div>
+    </div>
+
+    <div class="notice-card">
+        <div class="notice-title">Final Electoral Roll Publication</div>
+        <div class="notice-date">Date: 02 Jun 2023</div>
+    </div>
+
+    <div class="notice-card">
+        <div class="notice-title">General Election Preparation Advisory</div>
+        <div class="notice-date">Date: 05 Jun 2023</div>
+    </div>
+
+
+    <!-- Pagination -->
+    <div class="pagination-box mt-4">
+        <a href="{{ url_for('public.notices') }}" class="btn btn-outline-primary">Previous</a>
+        <a href="{{ url_for('public.notices2') }}" class="btn btn-outline-primary">1</a>
+        <a class="btn btn-primary">2</a>
+        <a class="btn btn-outline-secondary disabled">Next</a>
+    </div>
+
+</div>
+
+
+    
+
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 footer-about">
+                    <img src="{{ url_for('static', filename='images/logo.png') }}" class="footer-logo">
+                    <h5 class="mt-2">JanVote Portal</h5>
+                    <p>Demo online voting awareness system for election participation.</p>
+                </div>
+
+                <div class="col-md-4 footer-links">
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <li><a href="{{ url_for('public.home') }}">Home</a></li>
+                        <li><a href="{{ url_for('auth.login') }}" target="_blank">Login</a></li>
+                        <li><a href="{{ url_for('public.results') }}">Results</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 footer-contact">
+                    <h5>Contact</h5>
+                    <p>New Delhi, India</p>
+                    <p>support@janvote.in</p>
+                    <p>1800-123-4567</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom text-center">
+            © 2025 JanVote Portal
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+
+</html>

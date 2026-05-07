@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidates | JanVote Portal</title>
+
+    <link rel="icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+    <link rel="stylesheet"
+href="{{ url_for('static', filename='css/global.css') }}">
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/candidates.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <div class="top-header">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <div class="header-left">
+                <a href="{{ url_for('public.home') }}">
+                    <img src="{{ url_for('static', filename='images/logo.png') }}" class="main-logo">
+                </a>
+                <div class="ms-2">
+                    <h4 class="portal-title">JanVote Portal</h4>
+                    <small class="portal-subtitle">Online Voting Awareness & Service</small>
+                </div>
+            </div>
+
+            <a href="{{ url_for('voter.dashboard') }}" class="login-btn">Back to Dashboard</a>
+
+        </div>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar navbar-expand-lg main-navbar">
+        <div class="container">
+
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('voter.dashboard') }}">Dashboard</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="{{ url_for('voter.candidates') }}">Candidates</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('voter.vote') }}">Vote</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('voter.myresult') }}">Results</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- ===== PAGE TITLE ===== -->
+    <div class="container my-5">
+        <h2 class="text-center mb-5">Select Your Candidate</h2>
+
+        <div class="row g-4">
+
+            <!-- Candidate 1 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="candidate-card">
+                    <img src="https://tse4.mm.bing.net/th/id/OIP.n9XZJjf-fymU0Y-KhK3FSgHaEK?pid=Api&P=0&h=180"
+                        class="candidate-photo">
+                    <div class="candidate-body">
+                        <h5>Jagan Mohan Reddy</h5>
+                        <p>Age: 52</p>
+                        <p>Constituency: Pulivendula</p>
+                        <div class="symbol-box">
+                            <p>Party Symbol</p>
+                            <img src="https://tse2.mm.bing.net/th/id/OIP.blOBb3La6U1cPJdVeRMIqwAAAA?pid=Api&P=0&h=180">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Candidate 2 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="candidate-card">
+                    <img src="https://tse3.mm.bing.net/th/id/OIP.Oik9-4sBMxqwtLAH_GYRLQHaEv?pid=Api&P=0&h=180"
+                        class="candidate-photo">
+                    <div class="candidate-body">
+                        <h5>Chandrababu Naidu</h5>
+                        <p>Age: 74</p>
+                        <p>Constituency: Kuppam</p>
+                        <div class="symbol-box">
+                            <p>Party Symbol</p>
+                            <img src="https://tse4.mm.bing.net/th/id/OIP.J-pxZcceal57tqJK9B95JgAAAA?pid=Api&P=0&h=180">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Candidate 3 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="candidate-card">
+                    <img src="https://tse4.mm.bing.net/th/id/OIP.eovZ_6tSecXR2vbmIBEkiwHaEc?pid=Api&P=0&h=180"
+                        class="candidate-photo">
+                    <div class="candidate-body">
+                        <h5>Pavan Kalyan</h5>
+                        <p>Age: 53</p>
+                        <p>Constituency: Pithapuram</p>
+                        <div class="symbol-box">
+                            <p>Party Symbol</p>
+                            <img src="https://tse4.mm.bing.net/th/id/OIP.a374i9CrQlaBWD61hx4oDQHaEc?pid=Api&P=0&h=180">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Candidate 4 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="candidate-card">
+                    <img src="https://tse4.mm.bing.net/th/id/OIP.06qFphTM4lU9tLDdSOA3qAHaEc?pid=Api&P=0&h=180"
+                        class="candidate-photo">
+                    <div class="candidate-body">
+                        <h5>Revanth Reddy</h5>
+                        <p>Age: 55</p>
+                        <p>Constituency: Kodangal</p>
+                        <div class="symbol-box">
+                            <p>Party Symbol</p>
+                            <img src="https://tse4.mm.bing.net/th/id/OIP.3ie6Jo1XHoJvNLX5sZCzBQHaE7?pid=Api&P=0&h=180">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Candidate 5 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="candidate-card">
+                    <img src="https://tse4.mm.bing.net/th/id/OIP.fJhN_8WTScvxZevTE8CsEAHaEw?pid=Api&P=0&h=180"
+                        class="candidate-photo">
+                    <div class="candidate-body">
+                        <h5>Narendra Modi</h5>
+                        <p>Age: 75</p>
+                        <p>Constituency: Varanasi</p>
+                        <div class="symbol-box">
+                            <p>Party Symbol</p>
+                            <img src="https://tse2.mm.bing.net/th/id/OIP.ixHxKilgnoaG34lTSLO_DwHaFj?pid=Api&P=0&h=180">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Candidate 6 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="candidate-card">
+                    <img src="https://tse4.mm.bing.net/th/id/OIP.rEs97RDAPrTyaT14dxWwsQHaEk?pid=Api&P=0&h=180"
+                        class="candidate-photo">
+                    <div class="candidate-body">
+                        <h5>Rahul Gandhi</h5>
+                        <p>Age: 54</p>
+                        <p>Constituency: Wayanad</p>
+                        <div class="symbol-box">
+                            <p>Party Symbol</p>
+                            <img src="https://tse4.mm.bing.net/th/id/OIP.3ie6Jo1XHoJvNLX5sZCzBQHaE7?pid=Api&P=0&h=180">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Candidate 7 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="candidate-card">
+                    <img src="https://tse4.mm.bing.net/th/id/OIP.q55gHOi1iaD0OYO3t3qTmgHaE8?pid=Api&P=0&h=180"
+                        class="candidate-photo">
+                    <div class="candidate-body">
+                        <h5>K. Chandrashekar Rao</h5>
+                        <p>Age: 55</p>
+                        <p>Constituency: Kodangal</p>
+                        <div class="symbol-box">
+                            <p>Party Symbol</p>
+                            <img src="https://tse3.mm.bing.net/th/id/OIP.NGfNIf_Mt2HbDtMaRlC8ZgHaED?pid=Api&P=0&h=180">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center align-items-center my-5">
+                <a href="{{ url_for('voter.vote') }}" class="vote-btn btn btn-success">
+                    Cast Your Vote
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="footer-bottom text-center">
+            © 2025 JanVote Portal
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

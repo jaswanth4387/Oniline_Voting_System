@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JanVote Portal - Results</title>
+
+    <link rel="icon" href="{{ url_for('static', filename='images/favicon.ico') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/global.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/results.css') }}">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+<body>
+
+<!-- ===== HEADER ===== -->
+<div class="top-header">
+    <div class="container d-flex justify-content-between align-items-center">
+
+        <div class="d-flex align-items-center">
+            <a href="{{ url_for('public.home') }}"><img src="{{ url_for('static', filename='images/logo.png') }}" class="main-logo" alt="logo"></a>
+            <div class="ms-3">
+                <h4 class="portal-title">JanVote Portal</h4>
+                <small class="portal-subtitle">Online Voting Awareness & Service</small>
+            </div>
+        </div>
+
+        <a href="{{ url_for('auth.login') }}" class="login-btn" target="_blank">Voter Login</a>
+    </div>
+</div>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar navbar-expand-lg main-navbar">
+    <div class="container">
+
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a class="nav-link" href="{{ url_for('public.home') }}">Home</a></li>
+                <li class="nav-item"><a class="nav-link active" href="{{ url_for('public.results') }}">Results</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- ===== CONTENT ===== -->
+<div class="container my-5">
+
+    <h2 class="text-center mb-4">India Election Polling Percentage</h2>
+
+    <!-- INDIA OVERALL -->
+    <div class="india-box text-center mb-5">
+        <h3>Total Voter Turnout - India</h3>
+        <h1 class="text-success">67.4%</h1>
+        <p>Overall participation of voters across the country</p>
+    </div>
+
+    <h4 class="mb-3">State-wise Polling Percentage</h4>
+
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th>State / UT</th>
+                    <th>Polling %</th>
+                    <th>Graph</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+<tr><td>Andhra Pradesh</td><td>72%</td><td><div class="progress"><div class="progress-bar bg-success" style="width:72%">72%</div></div></td></tr>
+<tr><td>Arunachal Pradesh</td><td>78%</td><td><div class="progress"><div class="progress-bar bg-success" style="width:78%">78%</div></div></td></tr>
+<tr><td>Assam</td><td>80%</td><td><div class="progress"><div class="progress-bar bg-success" style="width:80%">80%</div></div></td></tr>
+<tr><td>Bihar</td><td>61%</td><td><div class="progress"><div class="progress-bar bg-success" style="width:61%">61%</div></div></td></tr>
+<tr><td>Chhattisgarh</td><td>76%</td><td><div class="progress"><div class="progress-bar bg-success" style="width:76%">76%</div></div></td></tr>
+<tr><td>Goa</td><td>75%</td><td><div class="progress"><div class="progress-bar bg-success" style="width:75%">75%</div></div></td></tr>
+<tr><td>Gujarat</td><td>68%</td><td><div class="progress"><div class="progress-bar bg-success" style="width:68%">68%</div></div></td></tr>
+<tr><td>Haryana</td><td>70%</td><td><div class="progress"><div class="progress-bar bg-success" style="width:70%">70%</div></div></td></tr>
+<tr><td>Himachal Pradesh</td><td>74%</td><td><div class="progress"><div class="progress-bar bg-success" style="width:74%">74%</div></div></td></tr>
+<tr><td>Jharkhand</td><td>66%</td><td><div class="progress"><div class="progress-bar bg-success" style="width:66%">66%</div></div></td></tr>
+<tr><td>Karnataka</td><td>65%</td><td><div class="progress"><div class="progress-bar bg-success" style="width:65%">65%</div></div></td></tr>
+<tr><td>Kerala</td><td>78%</td><td><div class="progress"><div class="progress-bar bg-success" style="width:78%">78%</div></div></td></tr>
+<tr><td>Madhya Pradesh</td><td>71%</td><td><div class="progress"><div class="progress-bar bg-success" style="width:71%">71%</div></div></td></tr>
+<tr><td>Maharashtra</td><td>63%</td><td><div class="progress"><div class="progress-bar bg-success" style="width:63%">63%</div></div></td></tr>
+<tr><td>Manipur</td><td>82%</td><td><div class="progress"><div class="progress-bar bg-success" style="width:82%">82%</div></div></td></tr>
+<tr><td>Meghalaya</td><td>79%</td><td><div class="progress"><div class="progress-bar bg-success" style="width:79%">79%</div></div></td></tr>
+<tr><td>Mizoram</td><td>84%</td><td><div class="progress"><div class="progress-bar bg-success" style="width:84%">84%</div></div></td></tr>
+<tr><td>Nagaland</td><td>83%</td><td><div class="progress"><div class="progress-bar bg-success" style="width:83%">83%</div></div></td></tr>
+<tr><td>Odisha</td><td>74%</td><td><div class="progress"><div class="progress-bar bg-success" style="width:74%">74%</div></div></td></tr>
+<tr><td>Punjab</td><td>67%</td><td><div class="progress"><div class="progress-bar bg-success" style="width:67%">67%</div></div></td></tr>
+<tr><td>Rajasthan</td><td>73%</td><td><div class="progress"><div class="progress-bar bg-success" style="width:73%">73%</div></div></td></tr>
+<tr><td>Sikkim</td><td>80%</td><td><div class="progress"><div class="progress-bar bg-success" style="width:80%">80%</div></div></td></tr>
+<tr><td>Tamil Nadu</td><td>70%</td><td><div class="progress"><div class="progress-bar bg-success" style="width:70%">70%</div></div></td></tr>
+<tr><td>Telangana</td><td>69%</td><td><div class="progress"><div class="progress-bar bg-success" style="width:69%">69%</div></div></td></tr>
+<tr><td>Tripura</td><td>81%</td><td><div class="progress"><div class="progress-bar bg-success" style="width:81%">81%</div></div></td></tr>
+<tr><td>Uttar Pradesh</td><td>60%</td><td><div class="progress"><div class="progress-bar bg-success" style="width:60%">60%</div></div></td></tr>
+<tr><td>Uttarakhand</td><td>68%</td><td><div class="progress"><div class="progress-bar bg-success" style="width:68%">68%</div></div></td></tr>
+<tr><td>West Bengal</td><td>79%</td><td><div class="progress"><div class="progress-bar bg-success" style="width:79%">79%</div></div></td></tr>
+
+<tr><td>Andaman & Nicobar Islands</td><td>66%</td><td><div class="progress"><div class="progress-bar bg-info" style="width:66%">66%</div></div></td></tr>
+<tr><td>Chandigarh</td><td>64%</td><td><div class="progress"><div class="progress-bar bg-info" style="width:64%">64%</div></div></td></tr>
+<tr><td>Dadra & Nagar Haveli and Daman & Diu</td><td>68%</td><td><div class="progress"><div class="progress-bar bg-info" style="width:68%">68%</div></div></td></tr>
+<tr><td>Delhi (NCT)</td><td>62%</td><td><div class="progress"><div class="progress-bar bg-info" style="width:62%">62%</div></div></td></tr>
+<tr><td>Jammu & Kashmir</td><td>71%</td><td><div class="progress"><div class="progress-bar bg-info" style="width:71%">71%</div></div></td></tr>
+<tr><td>Ladakh</td><td>73%</td><td><div class="progress"><div class="progress-bar bg-info" style="width:73%">73%</div></div></td></tr>
+<tr><td>Lakshadweep</td><td>77%</td><td><div class="progress"><div class="progress-bar bg-info" style="width:77%">77%</div></div></td></tr>
+<tr><td>Puducherry</td><td>75%</td><td><div class="progress"><div class="progress-bar bg-info" style="width:75%">75%</div></div></td></tr>
+
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+</body>
+</html>

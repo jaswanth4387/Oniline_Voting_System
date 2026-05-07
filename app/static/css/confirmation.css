@@ -1,0 +1,86 @@
+/* Page background */
+body{
+    background: linear-gradient(135deg,#eaf1ff,#f8fbff);
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+
+/* Center wrapper */
+.confirm-wrapper{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Main card */
+.confirm-card{
+    background: white;
+    padding: 50px 40px;
+    border-radius: 18px;
+    width: 500px;
+    max-width: 90%;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.15);
+    animation: fadeIn 0.7s ease;
+}
+
+
+/* Success icon */
+.success-circle{
+    width: 100px;
+    height: 100px;
+    background: #198754;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    box-shadow: 0 10px 25px rgba(25,135,84,0.4);
+}
+
+
+/* Info box */
+.vote-info{
+    background: #f3f6ff;
+    padding: 18px;
+    border-radius: 12px;
+    text-align: left;
+    border-left: 5px solid #0d6efd;
+}
+
+.vote-info p{
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+
+/* animation */
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform: translateY(30px);
+    }
+    to{
+        opacity:1;
+        transform: translateY(0);
+    }
+}
+
+
+/* Mobile */
+@media(max-width:600px){
+
+    .confirm-card{
+        padding:35px 20px;
+    }
+
+    .success-circle{
+        width:80px;
+        height:80px;
+        font-size:45px;
+    }
+}

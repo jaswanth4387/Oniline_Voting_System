@@ -1,0 +1,32 @@
+.welcome-box{
+    background:#eaf4ff;
+    padding:25px;
+    border-left:6px solid #0b3d91;
+    border-radius:10px;
+}
+
+.voter-card{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.15);
+}
+
+.action-card{
+    background:white;
+    padding:22px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,0.12);
+    transition:0.3s;
+}
+
+.action-card:hover{
+    transform:translateY(-5px);
+}
+
+.notification-box{
+    background:#fff7e6;
+    padding:20px;
+    border-radius:12px;
+}

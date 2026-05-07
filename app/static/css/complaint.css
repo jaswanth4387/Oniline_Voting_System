@@ -1,0 +1,30 @@
+/* info box */
+.complaint-info{
+    background:#eaf4ff;
+    border-left:6px solid #0b3d91;
+    padding:20px;
+    border-radius:10px;
+}
+
+/* main form card */
+.complaint-card{
+    background:white;
+    padding:30px;
+    border-radius:14px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* track box */
+.track-card{
+    background:#fff4e6;
+    padding:25px;
+    border-radius:14px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.12);
+}
+
+/* mobile */
+@media(max-width:768px){
+    .complaint-card{
+        padding:18px;
+    }
+}

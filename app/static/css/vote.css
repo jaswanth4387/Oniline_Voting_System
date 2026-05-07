@@ -1,0 +1,147 @@
+/* Background */
+body{
+background:linear-gradient(135deg,#eef2ff,#f7f9ff);
+font-family:"Segoe UI",sans-serif;
+}
+
+/* Notice bar */
+.vote-marquee{
+background:#0d6efd;
+color:white;
+padding:10px;
+font-weight:600;
+text-align:center;
+}
+
+/* Main container */
+.vote-container{
+max-width:900px;
+margin:auto;
+padding:20px;
+padding-bottom:140px;
+}
+
+/* Candidate card */
+.candidate-card{
+background:white;
+border-radius:16px;
+padding:16px;
+margin-bottom:18px;
+box-shadow:0 10px 25px rgba(0,0,0,.12);
+transition:.25s;
+}
+
+.candidate-card:hover{
+transform:translateY(-5px);
+box-shadow:0 15px 35px rgba(0,0,0,.18);
+}
+
+/* Info row */
+.candidate-info{
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:15px;
+}
+
+/* Images */
+.candidate-photo{
+width:70px;
+height:70px;
+border-radius:12px;
+object-fit:cover;
+}
+
+.party-symbol{
+width:70px;
+height:70px;
+object-fit:contain;
+background:#f2f5ff;
+padding:8px;
+border-radius:12px;
+}
+
+/* Text */
+.candidate-text h5{
+margin:0;
+font-weight:600;
+}
+
+.candidate-text p{
+margin:0;
+color:#555;
+}
+
+/* Vote button */
+.vote-btn{
+width:100%;
+margin-top:14px;
+border:none;
+background:#198754;
+color:white;
+padding:12px;
+border-radius:40px;
+font-size:18px;
+font-weight:600;
+}
+
+.vote-btn:hover{
+background:#157347;
+}
+
+/* Selected vote box */
+.vote-confirm{
+background:white;
+padding:18px;
+border-radius:14px;
+box-shadow:0 8px 20px rgba(0,0,0,.12);
+margin-top:25px;
+}
+
+/* Sticky submit bar */
+.submit-bar{
+position:fixed;
+bottom:0;
+left:0;
+width:100%;
+background:white;
+padding:14px;
+box-shadow:0 -6px 18px rgba(0,0,0,.18);
+z-index:999;
+}
+
+.submit-btn{
+display:block;
+background:#198754;
+color:white;
+text-align:center;
+padding:14px;
+border-radius:40px;
+font-size:18px;
+text-decoration:none;
+}
+
+.submit-btn:hover{
+background:#157347;
+}
+
+/* Desktop adjustment */
+@media(min-width:768px){
+
+.submit-bar{
+left:50%;
+transform:translateX(-50%);
+max-width:900px;
+border-radius:12px 12px 0 0;
+}
+
+.vote-container{
+padding-bottom:160px;
+}
+
+}
+
+.selected {
+    border: 3px solid #198754;
+    background: #e8f8ed;
+}

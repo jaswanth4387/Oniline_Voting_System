@@ -1,0 +1,20 @@
+.winner-card{
+    background:white;
+    padding:30px;
+    border-radius:16px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.18);
+}
+
+.winner-photo{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-top:15px;
+}
+
+.turnout-box{
+    background:#fff7e6;
+    padding:25px;
+    border-radius:14px;
+}

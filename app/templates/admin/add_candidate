@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Add Candidate</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container mt-5">
+
+    <div class="row justify-content-center">
+
+        <div class="col-md-6">
+
+            <div class="card shadow p-4">
+
+                <h2 class="mb-4">
+                    Add Candidate
+                </h2>
+
+                <form method="POST">
+
+                    <div class="mb-3">
+
+                        <label>Name</label>
+
+                        <input type="text"
+                               name="name"
+                               class="form-control"
+                               required>
+
+                    </div>
+
+
+                    <div class="mb-3">
+
+                        <label>Party</label>
+
+                        <input type="text"
+                               name="party"
+                               class="form-control"
+                               required>
+
+                    </div>
+
+
+                    <div class="mb-3">
+
+                        <label>Constituency</label>
+
+                        <input type="text"
+                               name="constituency"
+                               class="form-control"
+                               required>
+
+                    </div>
+
+
+                    <div class="mb-3">
+
+                        <label>Photo URL</label>
+
+                        <input type="text"
+                               name="photo"
+                               class="form-control">
+
+                    </div>
+
+
+                    <div class="mb-3">
+
+                        <label>Party Symbol URL</label>
+
+                        <input type="text"
+                               name="symbol"
+                               class="form-control">
+
+                    </div>
+
+
+                    <div class="d-grid">
+
+                        <button class="btn btn-success">
+                            Add Candidate
+                        </button>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+<script src="{{ url_for('static', filename='js/admin.js') }}"></script>
+
+</body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jan-Vote Portal</title>
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/global.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/notices.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+<body>
+    <!-- ===== TOP HEADER ===== -->
+    <div class="top-header">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <!-- Logo + Title -->
+            <div class="d-flex align-items-center">
+                <a href="{{ url_for('public.home') }}"><img src="{{ url_for('static', filename='images/logo.png') }}" class="main-logo" alt="logo"></a>
+                <div class="ms-3">
+                    <h4 class="portal-title">JanVote Portal</h4>
+                    <small class="portal-subtitle">Online Voting Awareness & Service</small>
+                </div>
+            </div>
+
+            <!-- Login Button -->
+            <a href="{{ url_for('auth.login') }}" class="login-btn" target="_blank">Voter Login</a>
+
+        </div>
+    </div>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar navbar-expand-lg main-navbar">
+        <div class="container">
+
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav mx-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="{{ url_for('public.home') }}">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('public.about') }}">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="{{ url_for('public.notices') }}">Notices</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('public.forms') }}">Forms</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('public.complaint') }}">Complaint Box</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('public.results') }}">Results</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+
+    <h2 class="text-center mb-4">Latest Election Notices</h2>
+
+    <!-- Notice 1 -->
+    <div class="notice-card">
+        <div class="notice-title">
+            Commission's Letter dated 08.12.2025 regarding adherence to Party Constitution by Political Parties
+        </div>
+        <div class="notice-date">Date: Monday 08 Dec 2025, 5:54 PM</div>
+    </div>
+
+    <div class="notice-card">
+        <div class="notice-title">Clarification dated 13.02.2024 regarding Form A and Form B</div>
+        <div class="notice-date">Date: Thursday 15 Feb 2024, 3:11 PM</div>
+    </div>
+
+    <div class="notice-card">
+        <div class="notice-title">Commission's Order dated 21st September, 2022 in respect of Organizational Election</div>
+        <div class="notice-date">Date: Wednesday 21 Sep 2022, 4:51 PM</div>
+    </div>
+
+    <div class="notice-card">
+        <div class="notice-title">Guidelines for Electronic Voting Machines usage in State Elections</div>
+        <div class="notice-date">Date: 10 Jan 2023</div>
+    </div>
+
+    <div class="notice-card">
+        <div class="notice-title">Special Enrollment Drive for First Time Voters</div>
+        <div class="notice-date">Date: 02 Feb 2023</div>
+    </div>
+
+    <div class="notice-card">
+        <div class="notice-title">Model Code of Conduct Enforcement Notice</div>
+        <div class="notice-date">Date: 12 Mar 2023</div>
+    </div>
+
+    <div class="notice-card">
+        <div class="notice-title">Polling Booth Security Arrangements Notification</div>
+        <div class="notice-date">Date: 21 Mar 2023</div>
+    </div>
+
+    <div class="notice-card">
+        <div class="notice-title">Candidate Nomination Last Date Announcement</div>
+        <div class="notice-date">Date: 02 Apr 2023</div>
+    </div>
+
+    <div class="notice-card">
+        <div class="notice-title">Postal Ballot Facility for Senior Citizens</div>
+        <div class="notice-date">Date: 14 Apr 2023</div>
+    </div>
+
+    <div class="notice-card">
+        <div class="notice-title">Polling Personnel Training Program Schedule</div>
+        <div class="notice-date">Date: 25 Apr 2023</div>
+    </div>
+
+
+    <!-- Pagination -->
+    <div class="pagination-box mt-4">
+        <a class="btn btn-outline-secondary disabled">Previous</a>
+        <a class="btn btn-primary">1</a>
+        <a href="{{ url_for('public.notices') }}" class="btn btn-outline-primary">2</a>
+        <a href="{{ url_for('public.notices2') }}" class="btn btn-outline-primary">Next</a>
+    </div>
+
+</div>
+
+
+
+
+    
+
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 footer-about">
+                    <img src="{{ url_for('static', filename='images/logo.png') }}" class="footer-logo">
+                    <h5 class="mt-2">JanVote Portal</h5>
+                    <p>Demo online voting awareness system for election participation.</p>
+                </div>
+
+                <div class="col-md-4 footer-links">
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <li><a href="{{ url_for('public.home') }}">Home</a></li>
+                        <li><a href="{{ url_for('auth.login') }}" target="_blank">Login</a></li>
+                        <li><a href="{{ url_for('public.results') }}">Results</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 footer-contact">
+                    <h5>Contact</h5>
+                    <p>New Delhi, India</p>
+                    <p>support@janvote.in</p>
+                    <p>1800-123-4567</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom text-center">
+            © 2025 JanVote Portal
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+
+</html>
