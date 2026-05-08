@@ -4,28 +4,51 @@ from app.extensions import db
 
 from app.models import User
 
+from werkzeug.security import (
+    generate_password_hash
+)
+
 
 app = create_app()
 
 
 with app.app_context():
 
-    admin = User(
+    existing_admin = User.query.filter_by(
+        email='admin@gmail.com'
+    ).first()
 
-        full_name='Super Admin',
 
-        email='admin@janvote.com',
+    if existing_admin:
 
-        voter_id='ADMIN001',
+        print(
+            "Admin already exists"
+        )
 
-        is_admin=True
+    else:
 
-    )
+        admin = User(
 
-    admin.set_password('admin123')
+            full_name='System Admin',
 
-    db.session.add(admin)
+            email='admin@gmail.com',
 
-    db.session.commit()
+            voter_id='ADMIN001',
 
-    print('Admin created successfully')
+            password_hash=generate_password_hash(
+                'admin123'
+            ),
+
+            is_admin=True
+
+        )
+
+
+        db.session.add(admin)
+
+        db.session.commit()
+
+
+        print(
+            "Admin Created Successfully"
+        )

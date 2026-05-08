@@ -15,6 +15,7 @@
 
 </head>
 <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
 <body>
     <!-- ===== TOP HEADER ===== -->
     <div class="top-header">
@@ -22,7 +23,8 @@
 
             <!-- Logo + Title -->
             <div class="d-flex align-items-center">
-                <a href="{{ url_for('public.home') }}"><img src="{{ url_for('static', filename='images/logo.png') }}" class="main-logo" alt="logo"></a>
+                <a href="{{ url_for('public.home') }}"><img src="{{ url_for('static', filename='images/logo.png') }}"
+                        class="main-logo" alt="logo"></a>
                 <div class="ms-3">
                     <h4 class="portal-title">JanVote Portal</h4>
                     <small class="portal-subtitle">Online Voting Awareness & Service</small>
@@ -91,7 +93,9 @@
                 <div class="form-card">
                     <h5>New Voter Registration</h5>
                     <p>Apply for new voter ID if you are 18 years or above.</p>
-                    <a href="{{ url_for('auth.signup') }}" class="btn btn-success">Apply Now</a>
+                    <a href="{{ url_for('public.new_voter_registration') }}" class="btn btn-success">
+                        Apply Now
+                    </a>
                 </div>
             </div>
 

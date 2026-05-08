@@ -1,0 +1,1338 @@
+{
+  "Khammam": {
+    "Bonakal": {
+      "villages": {
+        "Allapadu": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Bonakal": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Brahmanapalle": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Chinna Beeravalli": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Chirunomula": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Garlapadu": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Govindapuram": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Janakipuram": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Kalakota": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Laxmipuram": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Motamarri": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Mustikuntla": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Narayanapuram": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Ravinoothala": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Tutikuntla": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        }
+      }
+    },
+    "Chinthakani": {
+      "villages": {
+        "Ananthasagar": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Basvapuram": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Chinthakani": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Jagannadhapuram": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Kodumuru": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Komatlagudem": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Mathkepalli": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Nagili Gonda": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Nerada": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Patharlapadu": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Proddutur": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Ramakrishnapuram": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Seethampeta": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Thimminenipalem": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        }
+      }
+    },
+    "Enkoor": {
+      "villages": {
+        "Enkoor": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Burda Raghavapuram": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Garloddu": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Jannaram": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Kesupalli": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Nacharam": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Nukalampadu": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Rajalingala": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Thimmaraopeta": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Thuthaka Lingampeta": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Brahmanapalli": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Kothamedepalli": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Pocharam": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Repallewada": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        }
+      }
+    },
+    "Kallur": {
+      "villages": {
+        "Ayyavarigudem": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Bathulapalli": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Chandrupatla": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Cheruvu Madharam": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Chinna Korukondi": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Gokavaram": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Kallur": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Kistaram": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Koratlagudem": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Lakshmipuram": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Mogallapalli": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Narayanapuram": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Peruvancha": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Peddakorukondi": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Raghunadhagudem": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Talluru": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Telagaram": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Vennavalli": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        }
+      }
+    },
+    "Kamepally": {
+      "villages": {
+        "Adavimallela": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Barlagudem": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Garidepalli": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Govindrala": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Jasthipalli": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Kamepally": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Kambalapalli": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Komminepalli": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Lingala": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Maddulapalli": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Mucherla": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Pinjaramadugu": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Ponnekal": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Vootukuru": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        }
+      }
+    },
+    "Khammam (Rural)": {
+      "villages": {
+        "Arekodu": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Arempala": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Barugudem": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Danavaigudem": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Edulapuram": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Gudimalla": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Gurralapadu": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Kachirajugudem": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Kasna Thanda": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Kodavatikallu": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Maddulapalli": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Mangalagudem": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Muthagudem": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Pallegudem": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Polepalli": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Tanagampadu": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Teldarupalli": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Venkatagiri": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        }
+      }
+    },
+    "Khammam (Urban)": {
+      "villages": {
+        "Balaji Nagar": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Chimmapudi": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Danavaigudem": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Dhamsalapuram": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Erlapudi": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Gopalapuram": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Khanapuram Haveli": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Mamillagudem": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Mallemadugu": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Mustafa Nagar": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Pakabanda Bazaar": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Pedda Thanda": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Raghunadhapalem Urban Area": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Srinivasa Nagar": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        },
+        "Velugumatla": {
+          "assembly": "Khammam",
+          "parliament": "Khammam"
+        }
+      }
+    },"Konijerla": {
+      "villages": {
+        "Ammapalem": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Bodulabanda": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Dubbagudem": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Gopathi": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Gubbagurthy": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Konda Vanamala": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Konijerla": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Lalapuram": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Mallupalli": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Marrigudem": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Pedda Gopathi": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Singarajupalem": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Tanikella": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Thummalapalli": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Yedullacheruvu": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        }
+      }
+    },
+    "Kusumanchi": {
+      "villages": {
+        "Bhagayath Veedu": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Chowtapalli": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Eswaramadaram": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Gaigollapalli": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Gattu Singaram": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Jeelacheruvu": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Jujjularaopeta": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Kusumanchi": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Mallepalli": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Naikangudem": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Palair": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Perikasingaram": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Pocharam": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Rajupeta": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Telagaram": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Turakapalli": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        }
+      }
+    },
+    "Madhira": {
+      "villages": {
+        "Atukuru": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Dendukuru": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Desinenipalem": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Didugupadu": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Illendulapadu": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Khajipuram": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Madhira": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Matoorupeta": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Nagavarappadu": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Rayapatnam": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Rompinalla": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Siddinenigudem": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Tondala Gopavaram": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Vangaveedu": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Yerrupalem Road Area": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        }
+      }
+    },
+    "Mudigonda": {
+      "villages": {
+        "Ammapeta": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Banapuram": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Chirumarri": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Edavalli": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Gandhasiri": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Kamalapuram": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Katkur": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Kodavatimetta": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Madhapuram": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Mallemadugu": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Mudigonda": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Pammi": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Pedamandava": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Suvarnapuram": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Vallabhi": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        }
+      }
+    },
+    "Nelakondapally": {
+      "villages": {
+        "Acharlagudem": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Anasagaram": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Apparaopeta": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Bhiravunipalli": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Bodulabanda": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Chennaram": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Cheruvumadharam": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Kongara": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Nelakondapally": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Painampalli": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Rajeshwarapuram": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Surdepalli": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Singareni": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Thirumalapuram": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Yedulla Cheruvu": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        }
+      }
+    },
+    "Penubally": {
+      "villages": {
+        "Bayyannagudem": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Brahmallakunta": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Gangadevipadu": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Ganeshpadu": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Karaigudem": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Kuppenakuntla": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Lingagudem": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Mandalapadu": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Patha Karaigudem": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Penubally": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Tekulapalli": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Thallapenta": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Yerragunta": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        }
+      }
+    },
+    "Raghunadhapalem": {
+      "villages": {
+        "Budidampadu": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Chintagudem": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Edulapuram": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Gollapadu": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Kokkireni": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Kothagudem": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Manchukonda": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "M.V. Palem": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Papadapalli": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Polepalli": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Puttakota": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Raghunadhapalem": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Regulachalka": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Vepakuntla": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Yerra Gunta": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        }
+      }
+    },
+    "Sathupally": {
+      "villages": {
+        "Bethupalli": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Gangaram": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Gattu Singaram": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Kistaram": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Kommepalli": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Maddulapalli": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Narayana Puram": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Ramanagaram": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Rejerla": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Sathupally": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Siddaram": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Suddepalli": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Thumba Gudem": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Vemsoor Road Area": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Yatalakunta": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        }
+      }
+    },
+    "Singareni": {
+      "villages": {
+        "Bajumallaigudem": {
+          "assembly": "Yellandu",
+          "parliament": "Khammam"
+        },
+        "Bhagatveedu": {
+          "assembly": "Yellandu",
+          "parliament": "Khammam"
+        },
+        "Dubbagudem": {
+          "assembly": "Yellandu",
+          "parliament": "Khammam"
+        },
+        "Komatigudem": {
+          "assembly": "Yellandu",
+          "parliament": "Khammam"
+        },
+        "Kothagudem": {
+          "assembly": "Yellandu",
+          "parliament": "Khammam"
+        },
+        "Madharam": {
+          "assembly": "Yellandu",
+          "parliament": "Khammam"
+        },
+        "Mangapuram": {
+          "assembly": "Yellandu",
+          "parliament": "Khammam"
+        },
+        "Perupalli": {
+          "assembly": "Yellandu",
+          "parliament": "Khammam"
+        },
+        "Relakayalapalli": {
+          "assembly": "Yellandu",
+          "parliament": "Khammam"
+        },
+        "Singareni": {
+          "assembly": "Yellandu",
+          "parliament": "Khammam"
+        },
+        "Thodithala Gudem": {
+          "assembly": "Yellandu",
+          "parliament": "Khammam"
+        },
+        "Usirikayalapalli": {
+          "assembly": "Yellandu",
+          "parliament": "Khammam"
+        }
+      }
+    },
+    "Thallada": {
+      "villages": {
+        "Annargudem": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Basavapuram": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Billupadu": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Gollagudem": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Kallurugudem": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Kesavapuram": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Kodavatikallu": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Laxmipuram": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Muddunuru": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Pinapaka": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Raghunadhapalem": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Ramanujavaram": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Rejerla": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Thallada": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Venkatagiri": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        }
+      }
+    },
+    "Thirumalayapalem": {
+      "villages": {
+        "Bachodu": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Beerolu": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Edullacheruvu": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Erragadda": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Hasnabad": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Hydersaipeta": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Jallepalli": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Kakaravai": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Kokkireni": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Pindiprolu": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Rajaram": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Sublaid": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Thallaampadu": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Thirumalayapalem": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        },
+        "Yellammagudem": {
+          "assembly": "Palair",
+          "parliament": "Khammam"
+        }
+      }
+    },
+    "Vemsoor": {
+      "villages": {
+        "Adsarlapadu": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Ammapalem": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Bharinipadu": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Chowdavaram": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Duddepudi": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Kandragatlamallela": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Kandukuru": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Kunchaparthi": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Marlapadu": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Vemsoor": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Venkatapuram": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Wadlakonda": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        },
+        "Yerragunta": {
+          "assembly": "Sathupally",
+          "parliament": "Khammam"
+        }
+      }
+    },
+    "Wyra": {
+      "villages": {
+        "Asthanpuram": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Garikapadu": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Gollanapadu": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Khanapuram": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Konda Kodima": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Lakshmipuram": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Lingannapalem": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Musalimadugu": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Narapaneni Gudem": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Punyapuram": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Rebbavaram": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Siripuram": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Somavaram": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Vallapuram": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Vipparla": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        },
+        "Wyra": {
+          "assembly": "Wyra",
+          "parliament": "Khammam"
+        }
+      }
+    },
+    "Yerrupalem": {
+      "villages": {
+        "Ayyavarigudem": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Banigandlapadu": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Bheemavaram": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Choppakatla Palem": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Gatla Gowraram": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Inagali": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Jamalapuram": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Kothapalem": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Meenavolu": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Mulugumadu": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Pegallapadu": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Rajulapalem": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Remidicherla": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        },
+        "Yerrupalem": {
+          "assembly": "Madhira",
+          "parliament": "Khammam"
+        }
+      }
+    }
+
+  }
+}
+
+    

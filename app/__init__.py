@@ -1,13 +1,15 @@
 from flask import Flask
 
-from app.extensions import db
-from app.extensions import migrate
-from app.extensions import login_manager
-
-from app.models import User
-
 from config import Config
 
+from app.extensions import (
+    db,
+    login_manager,
+    migrate
+)
+
+
+# ================= CREATE APP =================
 
 def create_app():
 
@@ -15,13 +17,30 @@ def create_app():
 
     app.config.from_object(Config)
 
-    db.init_app(app)
 
-    migrate.init_app(app, db)
+    # ================= INITIALIZE EXTENSIONS =================
+
+    db.init_app(app)
 
     login_manager.init_app(app)
 
+    migrate.init_app(app, db)
+
+
+    # ================= LOGIN SETTINGS =================
+
     login_manager.login_view = 'auth.login'
+
+
+    # ================= IMPORT MODELS =================
+
+    from app.models import (
+        User,
+        Candidate,
+        Vote,
+        Election,
+        VoterApplication
+    )
 
 
     # ================= USER LOADER =================
@@ -29,22 +48,34 @@ def create_app():
     @login_manager.user_loader
     def load_user(user_id):
 
-        return User.query.get(int(user_id))
+        return User.query.get(
+            int(user_id)
+        )
 
 
-    # ================= BLUEPRINTS =================
+    # ================= REGISTER BLUEPRINTS =================
 
     from app.routes.public import public_bp
     from app.routes.auth import auth_bp
-    from app.routes.voter import voter_bp
     from app.routes.admin import admin_bp
+    from app.routes.voter import voter_bp
 
-    app.register_blueprint(public_bp)
 
-    app.register_blueprint(auth_bp)
+    app.register_blueprint(
+        public_bp
+    )
 
-    app.register_blueprint(voter_bp)
+    app.register_blueprint(
+        auth_bp
+    )
 
-    app.register_blueprint(admin_bp)
+    app.register_blueprint(
+        admin_bp
+    )
+
+    app.register_blueprint(
+        voter_bp
+    )
+
 
     return app

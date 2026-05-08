@@ -82,3 +82,136 @@ class Vote(db.Model):
         db.Integer,
         db.ForeignKey('candidate.id')
     )
+
+
+# ================= NEW VOTER APPLICATION =================
+
+class VoterApplication(db.Model):
+
+    id = db.Column(
+        db.Integer,
+        primary_key=True
+    )
+
+    full_name = db.Column(
+        db.String(100)
+    )
+
+    parent_name = db.Column(
+        db.String(100)
+    )
+
+    dob = db.Column(
+        db.String(20)
+    )
+
+    gender = db.Column(
+        db.String(20)
+    )
+
+    mobile = db.Column(
+        db.String(15)
+    )
+
+    email = db.Column(
+        db.String(120)
+    )
+
+    aadhaar = db.Column(
+        db.String(20)
+    )
+
+    caste = db.Column(
+        db.String(50)
+    )
+
+    address = db.Column(
+        db.Text
+    )
+
+    district = db.Column(
+        db.String(100)
+    )
+
+    state = db.Column(
+        db.String(100)
+    )
+
+    pincode = db.Column(
+        db.String(10)
+    )
+
+    assembly = db.Column(
+        db.String(100)
+    )
+
+    parliament = db.Column(
+        db.String(100)
+    )
+
+    photo = db.Column(
+        db.String(255)
+    )
+
+    aadhaar_file = db.Column(
+        db.String(255)
+    )
+
+    address_proof = db.Column(
+        db.String(255)
+    )
+
+    # ================= STATUS =================
+
+    status = db.Column(
+
+        db.String(50),
+
+        default='PENDING'
+
+    )
+
+    document_verified = db.Column(
+
+        db.Boolean,
+
+        default=False
+
+    )
+
+    field_verified = db.Column(
+
+        db.Boolean,
+
+        default=False
+
+    )
+    status = db.Column(
+    db.String(50),
+    default='PENDING'
+    )
+    
+    tracking_id = db.Column(
+    db.String(30),
+    unique=True
+    )
+
+class Election(db.Model):
+
+    id = db.Column(
+        db.Integer,
+        primary_key=True
+    )
+
+    title = db.Column(
+        db.String(200),
+        nullable=False
+    )
+
+    start_date = db.Column(
+        db.DateTime
+    )
+
+    end_date = db.Column(
+        db.DateTime
+    )
